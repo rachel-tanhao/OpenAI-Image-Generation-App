@@ -23,7 +23,7 @@ const createPost = () => {
       try {
 
         setGeneratingImg(true);
-        const response = await fetch("http://localhost:8080/api/v1/dalle", {
+        const response = await fetch("https://openai-image-generation-app.onrender.com/api/v1/dalle", {
           method: "POST",
           headers: {"Content-Type": "application/json",},
           body: JSON.stringify({prompt: form.prompt,}),
@@ -54,7 +54,7 @@ const createPost = () => {
 
       try {
         // fecth the response data for posting form and image data to postRoutes.js
-        const response = await fetch("http://localhost:8080/api/v1/post", {
+        const response = await fetch("https://openai-image-generation-app.onrender.com/api/v1/post", {
           method: "POST",
           headers: {"Content-Type": "application/json",},
           body: JSON.stringify(form),
