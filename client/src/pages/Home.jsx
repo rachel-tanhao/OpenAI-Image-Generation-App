@@ -47,7 +47,8 @@ const Home = () => {
     fetchPosts();
   }, []);
 
-  
+
+  {/* Search function */}
   const handleSearchChange = (e) => {
     clearTimeout(searchTimeout);
     setSearchText(e.target.value);
@@ -60,7 +61,7 @@ const Home = () => {
             item.prompt.toLowerCase().includes(searchText.toLowerCase())
         );
         setSearchedResults(searchResult);
-      }, 500)
+      }, 500) // timeout when over 5 secs
     );
   };
 
