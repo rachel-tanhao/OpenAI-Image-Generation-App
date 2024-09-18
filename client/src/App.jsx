@@ -4,7 +4,7 @@ import { logo } from "./assets";
 import { Home, CreatePost } from "./pages";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/OpenAI-Image-Generation-App">
   
     <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
       
