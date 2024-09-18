@@ -7,7 +7,7 @@ import { FormField, Loader } from "../components";
 
 
 const createPost = () => {
-  const navigate = useNavigate(); {/* navigate hook: allow us to come back to Home page after create a post */}
+  const navigate = useNavigate(); {/* navigate hook: later can be used to come back to Home page after create a post */}
   const [form, setForm] = useState({
     name: "",
     prompt: "",
@@ -47,22 +47,21 @@ const createPost = () => {
 
   {/* handleSubmit function */}
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // to prevent browser automatically reload the app
 
     if (form.prompt && form.photo) {
       setLoading(true);
 
       try {
-        const response = await fetch("https://dall-e-fpb3.onrender.com/api/v1/post", {
+        // fecth the response data for posting form and image data to postRoutes.js
+        const response = await fetch("http://localhost:8080/api/v1/post", {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
+          headers: {"Content-Type": "application/json",},
           body: JSON.stringify(form),
         });
 
         await response.json();
-        navigate("/");
+        navigate("/"); // return to homepage
       } catch (error) {
         alert(error);
       } finally {
@@ -124,7 +123,7 @@ const createPost = () => {
           {/* Container for AI-generated image */}
           <div className={`relative bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-3 flex justify-center items-center 
           ${form.photo ? 'w-128 h-128' : 'w-64 h-64'}`}>
-            
+
             {form.photo ? (
               <img src={form.photo} alt={form.prompt} className="w-full h-full object-contain"/>
             ) : (

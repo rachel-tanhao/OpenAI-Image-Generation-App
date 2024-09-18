@@ -1,7 +1,7 @@
 import React from "react";
 
 import { download } from "../assets";
-import { downloadImage } from "../utils";
+import { downloadImage } from "../utils"; // helper function
 
 const Card = ({ _id, name, prompt, photo }) => {
   return (
@@ -20,6 +20,7 @@ const Card = ({ _id, name, prompt, photo }) => {
             </div>
             <p className="text-white text-sm">{name}</p>
           </div>
+          
           <button
             type="button"
             onClick={() => downloadImage(_id, photo)}

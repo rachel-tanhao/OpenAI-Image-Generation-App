@@ -1,3 +1,4 @@
+// For posting to and get back from DALL-E API
 import express from 'express';
 import * as dotenv from 'dotenv';
 import OpenAI from 'openai';
