@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://tanhaow.github.io/OpenAI-Image-Generation-App/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
