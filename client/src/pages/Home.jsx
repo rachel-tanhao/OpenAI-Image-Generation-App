@@ -50,7 +50,7 @@ const Home = () => {
 
   {/* Search function */}
   const handleSearchChange = (e) => {
-    clearTimeout(searchTimeout);
+    clearTimeout(searchTimeout); // clear up the timeout timer every time user input sth new
     setSearchText(e.target.value);
 
     setSearchTimeout(
@@ -81,7 +81,7 @@ const Home = () => {
         </div>
 
 
-        {/* Search Box */}
+        {/* Search Box Section */}
         <div className="mt-16">
             <FormField
                 labelName="Search posts"
