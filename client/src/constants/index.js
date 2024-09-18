@@ -1,5 +1,6 @@
 export const surpriseMePrompts = [
     'an armchair in the shape of an avocado',
+    'Chinggis Khan riding on a huge falcon flying over the sea',
     'a surrealist dream-like oil painting by Salvador Dalí of a cat playing checkers',
     'teddy bears shopping for groceries in Japan, ukiyo-e',
     'an oil painting by Matisse of a humanoid robot playing chess',
