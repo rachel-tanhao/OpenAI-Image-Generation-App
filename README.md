@@ -1,16 +1,11 @@
 # 🌟 OpenAI DALL-E Image Generation App
 
-I built this project with the motivation to make interacting with AI image generation easy and fun! Many people don't often try platforms like Midjourney or DALL-E, so I wanted to create a user-friendly way for everyone to explore the magic of AI. Therefore, my goal was to simplify interacting with DALL-E and build a community around it. 🪄
+Welcome to DALL-E Clone, a full-stack web app powered by OpenAI's DALL-E API to generate stunning AI-driven images. This app is a playground for AI and creativity, where your words turn into art. 🧑‍🎨
+Build, share, and explore a community of AI-generated artwork—all in a sleek, responsive design. Whether you're an AI enthusiast or just curious, this platform lets you dive into the magic of image generation easily! 🎨✨
 
-As a result, this DALL-E Clone web app streamlines the process of generating AI images and provides a platform for sharing and discovering AI-generated artwork! 🎨✨
 
 ![Laptop Demo](laptop_demo.png)
-## ✨ Features
 
-- Generate AI images using DALL-E API
-- Share generated images with the community
-- View and download community-shared images
-- Responsive design for various screen sizes
 
 ## 🌐 Demo
 Here is a working live demo: 
@@ -26,19 +21,26 @@ https://tanhaow.github.io/OpenAI-Image-Generation-App/
 ![Phone Demo](phone_demo.png)
 
 ## 📝 What It's All About
-This app is a playground for AI and creativity, where your words turn into art. Imagine typing a few words and seeing them transformed into unique, AI-generated images. 🧑‍🎨✨ Whether you're looking to explore the boundaries of machine learning or just want to create something cool, this app makes it easy to dive into the world of AI without any complicated steps.
 
-What makes it fun? It’s not just the image generation—it's the feeling of discovery. Every prompt unlocks a new possibility, and the best part is that you get to share those moments with others in a creative community! 🌐🎉
+I built this project with the motivation to make interacting with AI image generation easy and fun! Many people don't often try platforms like Midjourney or DALL-E, so I wanted to create a user-friendly way for everyone to explore the magic of AI. Therefore, my goal was to simplify interacting with DALL-E and build a community around it. 🪄
 
+As a result, this DALL-E Clone web app streamlines the process of generating AI images and provides a platform for sharing and discovering AI-generated artwork! 🎨✨
 
+### ✨ New Features
+
+- Generate AI images using DALL-E API
+- Share generated images with the community
+- View and download community-shared images
+- Responsive design for various screen sizes
 
 ## 📖 Table of Contents
 - [🌟 OpenAI DALL-E Image Generation App](#-openai-dall-e-image-generation-app)
-  - [✨ Features](#-features)
   - [🌐 Demo](#-demo)
   - [🛠️ Technologies Used](#️-technologies-used)
   - [📝 What It's All About](#-what-its-all-about)
+    - [✨ New Features](#-new-features)
   - [📖 Table of Contents](#-table-of-contents)
+  - [✨ Features](#-features)
   - [🛠️ Setup Project](#️-setup-project)
     - [🍴 Prerequisites](#-prerequisites)
     - [🚀 Installation](#-installation)
@@ -47,7 +49,12 @@ What makes it fun? It’s not just the image generation—it's the feeling of di
   - [🤝 Contributing](#-contributing)
   - [📄 License](#-license)
 
+## ✨ Features
 
+- Generate AI images using DALL-E API
+- Share generated images with the community
+- View and download community-shared images
+- Responsive design for various screen sizes
 
 ## 🛠️ Setup Project
 ### 🍴 Prerequisites
