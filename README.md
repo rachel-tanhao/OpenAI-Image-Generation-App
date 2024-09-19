@@ -47,6 +47,7 @@ As a result, this DALL-E Clone web app streamlines the process of generating AI 
   - [🔍 Usage](#-usage)
   - [🔒 Environment Variables](#-environment-variables)
   - [🤝 Contributing](#-contributing)
+    - [📫 Contact Me](#-contact-me)
   - [📄 License](#-license)
 
 ## ✨ Features
@@ -122,6 +123,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+### 📫 Contact Me
+- tanhaosmail@gmail.com
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
