@@ -11,6 +11,10 @@ Build, share, and explore a community of AI-generated artwork—all in a sleek, 
 Here is a working live demo: 
 https://tanhaow.github.io/OpenAI-Image-Generation-App/
 
+Please allow a few seconds for the homepage images to load if it’s your first time visiting. 
+
+(Apologies! I’m using the free Cloudinary plan, so loading may take a moment) 😊
+
 ## 🛠️ Technologies Used
 - Frontend: React, Vite, Tailwind CSS
 - Backend: Node.js, Express
