@@ -9,7 +9,7 @@ Build, share, and explore a community of AI-generated artwork—all in a sleek, 
 
 ## 🌐 Demo
 Here is a working live demo: 
-https://tanhaow.github.io/OpenAI-Image-Generation-App/
+https://rachel-tanhaow.github.io/OpenAI-Image-Generation-App/
 
 Please allow a few seconds for the homepage images to load if it’s your first time visiting. 
 
@@ -74,8 +74,8 @@ As a result, this DALL-E Clone web app streamlines the process of generating AI 
 ### 🚀 Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/dalle-clone.git
-cd dalle-clone
+git clone https://github.com/rachel-tanhaow/OpenAI-Image-Generation-App.git
+cd OpenAI-Image-Generation-App
 ```
 
 2. Install dependencies for both client and server
